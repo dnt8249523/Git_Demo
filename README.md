@@ -63,7 +63,7 @@ in .gitignore:
 -*.py?
 //The character "?" matches any one character except "/"
 11. 在gitee上注册账号，并创建远程仓库
-
+Do in the web. Skip
 12. 添加远程仓库
 
 13. 将本地库push到远程库
