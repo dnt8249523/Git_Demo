@@ -8,14 +8,22 @@ git init "folder name"
 git add "filename"
 git add README
 git add *.html
+
+git add .
+//add all, will only add files located in the root directory.
+git add -a 
+or
+git add --all
+//add all
 6. 修改文件并提交到版本库；
 git commit -m "some message"
 git commit -m "some message(title)" -m "some description"
 7. 查看提交历史；比较历史的差异修改；
 git log 
 //show history
-git log -p -2
+git log -p
 //-p Or -patch, which shows the difference
+git log -p -2
 //-2 to show only the last two entries.
 8. 修改文件后，还原；
 9. 删除文件
