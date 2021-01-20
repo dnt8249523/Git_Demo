@@ -57,9 +57,11 @@ git branch <branch_name>
 //create a new branch with branch_name, 
 //if there alrady have branch with the name you want to create, will return error
 
-git branch -D <branch_name>
+git branch --delete <branch_name>
 //delete branch, cannot delete current active branch or branch not existing
 
-
+git branch -D <branch_name>
+//[forced delete]delete branch, cannot delete current active branch or branch not existing
 16. 合并分支
+
 17. 解决冲突
