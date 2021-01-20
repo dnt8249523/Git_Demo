@@ -40,6 +40,10 @@ git log --oneline
 git checkout <hash value>
 //switch to the pointed commit
 9. 删除文件
+git rm <file_name>
+//delete file from repository & filesystem
+git rm -r <folder_name>
+//delete all the files in folder named <folder_name> 
 10. 忽略文件、文件夹
 11. 在gitee上注册账号，并创建远程仓库
 12. 添加远程仓库
