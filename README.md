@@ -65,9 +65,11 @@ in .gitignore:
 11. 在gitee上注册账号，并创建远程仓库
 Do in the web. Skip
 12. 添加远程仓库
-
+git remote add origin git@github.com:dnt8249523/Git_Demo.git
+//add a remote repository
 13. 将本地库push到远程库
-
+git push -u origin master
+//push master branch to the remote repository called "origin"
 14. 删除本地库，从远程库克隆
 
 15. 创建分支
