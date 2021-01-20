@@ -112,4 +112,12 @@ git merge <branch_name>
 //merge branch
 
 17. 解决冲突
+git merge conflict
+CONFLICT (add/add): Merge conflict in conflict.py
+Auto-merging conflict.py
+Automatic merge failed; fix conflicts and then commit the result.
+
+need manully modification in conflict.py
+
+
 
