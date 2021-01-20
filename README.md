@@ -46,9 +46,20 @@ git checkout <hash value>
 13. 将本地库push到远程库
 14. 删除本地库，从远程库克隆
 15. 创建分支
+git chechout <branch_name>
+//switch to branch names <branch_name>
 git checkout -b temp
 //switch to a new branch "temp"
 
 git branch
+//check all branch & current branch
+git branch <branch_name>
+//create a new branch with branch_name, 
+//if there alrady have branch with the name you want to create, will return error
+
+git branch -D <branch_name>
+//delete branch, cannot delete current active branch or branch not existing
+
+
 16. 合并分支
 17. 解决冲突
