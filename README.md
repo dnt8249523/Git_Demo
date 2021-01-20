@@ -72,5 +72,6 @@ git branch --delete <branch_name>
 git branch -D <branch_name>
 //[forced delete]delete branch, cannot delete current active branch or branch not existing
 16. 合并分支
-
+git merge <branch_name>
+//merge branch
 17. 解决冲突
