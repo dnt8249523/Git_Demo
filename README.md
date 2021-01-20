@@ -48,6 +48,15 @@ git rm <file_name>
 git rm -r <folder_name>
 //delete all the files in folder named <folder_name> 
 10. 忽略文件、文件夹
+echo '.DS_Store' >> .gitignore
+//quickly create .gitignore in terminal
+
+in .gitignore:
+-temp (just write down folder name)
+//ignore folder names "temp"
+-ignore.html (just write down file name)
+//ignore file named "ignore.html"
+-
 11. 在gitee上注册账号，并创建远程仓库
 12. 添加远程仓库
 13. 将本地库push到远程库
