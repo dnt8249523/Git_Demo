@@ -119,5 +119,6 @@ Automatic merge failed; fix conflicts and then commit the result.
 
 need manully modification in conflict.py
 
-
+git merge conflict
+git commit -am "solve conflict"
 
