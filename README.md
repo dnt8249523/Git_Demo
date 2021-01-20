@@ -56,11 +56,20 @@ in .gitignore:
 //ignore folder names "temp"
 -ignore.html (just write down file name)
 //ignore file named "ignore.html"
--
+-abc*
+//ignore all files that name leading with "abc"
+-*.py
+//ignore all files that name ened with ".py"
+-*.py?
+//The character "?" matches any one character except "/"
 11. 在gitee上注册账号，并创建远程仓库
+
 12. 添加远程仓库
+
 13. 将本地库push到远程库
+
 14. 删除本地库，从远程库克隆
+
 15. 创建分支
 git chechout <branch_name>
 //switch to branch names <branch_name>
