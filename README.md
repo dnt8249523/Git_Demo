@@ -1,4 +1,14 @@
 1. git与svn的差别是什么？
+GIT:
+-decentralized (local repository & remote repository)
+-compex to learn
+-become slow when it deals with large binary files
+
+SVN:
+-always centralized (if the central server is damaged, nobody can work until the server is fixed)
+-easy to learn
+-handle large binary file easily
+
 2. 安装git
 3. 安装tortoise git
 4. 分别使用git命令创建版本库和使用tortoise git创建版本库；
@@ -121,4 +131,5 @@ need manully modification in conflict.py
 
 git merge conflict
 git commit -am "solve conflict"
+//git commit -am means add & commit
 
