@@ -4,6 +4,9 @@
 4. 分别使用git命令创建版本库和使用tortoise git创建版本库；
 git init
 git init "folder name"
+
+git status
+//show the working tree status
 5. 添加文件到版本库
 git add "filename"
 git add README
@@ -52,6 +55,8 @@ git rm -r <folder_name>
 15. 创建分支
 git chechout <branch_name>
 //switch to branch names <branch_name>
+git checkout <hash_value>
+//switch to selected commit
 git checkout -b temp
 //switch to a new branch "temp"
 
