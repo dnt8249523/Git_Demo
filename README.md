@@ -26,6 +26,10 @@ git log -p
 git log -p -2
 //-2 to show only the last two entries.
 8. 修改文件后，还原；
+git log --oneline 
+//check commit history in this branch
+
+//
 9. 删除文件
 10. 忽略文件、文件夹
 11. 在gitee上注册账号，并创建远程仓库
